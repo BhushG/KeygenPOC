@@ -6,13 +6,15 @@ import com.mashape.unirest.http.Unirest;
 import org.json.JSONObject;
 
 /**
- * Authorization is not required to validate key
+ * Authorization is not required to validate key.
+ * You will get License ID when you validate the license key.
+ * Using that License ID you can check in.
  */
 public class ValidateKey {
     public static void main(String[] args) throws Exception{
         String licenseKey= "{\n" +
                 "\"meta\": {\n" +
-                    "\"key\": \"afceb3d8825b44379483ebcab4490964-4c543e51532f7a34b85f68b58e946ef3-8be9bca27541273d445d133e7b463508-93594f1c497808389af47cd7c47c5dv2\"\n" +
+                    "\"key\": \"c0e0b76bb3d54f6289c59bdeebe19fba-44cb6515c6217c2e627e5447c9e09b79-9a674be85ca2d9cc534ddc71c7866cd7-9bae76b113fd9ea527c9bbde730c11v2\"\n" +
                     "}\n" +
                 "}";
 
