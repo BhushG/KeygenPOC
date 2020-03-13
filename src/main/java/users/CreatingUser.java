@@ -7,6 +7,9 @@ import org.json.*;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * user resources are shared between products
+ */
 public class CreatingUser {
     public static void main(String[] args) throws Exception{
         System.out.println("Creating User..");
